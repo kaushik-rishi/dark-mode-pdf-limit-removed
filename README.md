@@ -9,3 +9,10 @@ converts PDFs to dark mode
 	- add a secondary gradient tone (experimental)
 	- retain image colors in dark moded PDF (experimental)
 	- OCR scanned documents to add a text layer to the PDF
+
+setting up the python part
+```
+virtualenv virtual_environment
+source virtual_environment/bin/activate
+pip3 install -r requirements.txt
+```
