@@ -83,13 +83,13 @@ async function add_conversion() {
 }
 
 async function backup_db() {
-	await axios.post("https://api.elephantsql.com/api/backup", {}, {
-		auth: {
-			username: "",
-			password: process.env.SQL_API_KEY
-		}
-	});
-	console.log("backed up db");
+	// await axios.post("https://api.elephantsql.com/api/backup", {}, {
+	// 	auth: {
+	// 		username: "",
+	// 		password: process.env.SQL_API_KEY
+	// 	}
+	// });
+	// console.log("backed up db");
 }
 function cycle_backup_db() {
 	backup_db().catch((err) => console.error(err));

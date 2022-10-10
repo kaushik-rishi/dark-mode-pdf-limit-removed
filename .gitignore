@@ -10,3 +10,4 @@ build/
 # keep
 !.git*
 !.*rc
+!.env_dev
